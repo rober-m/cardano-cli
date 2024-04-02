@@ -18,7 +18,7 @@
       # disabling to reduce CI time initially. Uncomment later
       #"x86_64-darwin"
       #"aarch64-linux"
-      #"aarch64-darwin"
+      "aarch64-darwin"
     ];
   in
     {inherit (inputs) incl;}
